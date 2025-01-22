@@ -1,0 +1,71 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: #EAEAEA;
+}
+
+.message {
+
+    background-color: white;
+    height: 320px;
+    width: 550px;
+    margin-left:30%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.message h2 {
+
+    text-align: center;
+    padding: 30px;
+}
+
+.message h3 {
+
+    padding-left: 11px;
+}
+
+#areatext {
+
+    width: 90%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 5px;
+    resize: none;
+    font-size: 16px; 
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#areatext:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+#counts {
+
+    margin-top: 10px;
+    margin-left: 440px;
+    font-size: 14px;
+    color: darkblue;
+}
+
+#exceed {
+
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.hidden {
+
+    display: none;
+}
